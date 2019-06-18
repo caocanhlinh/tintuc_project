@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="jj0-5iLx0_KMUkUSvQRavbASUtWkjqIZtOpDvnYC3Oo" />
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="/xmlrpc.php">
+<link rel="icon" type="image/png" href="/wp-content/themes/happythemes/assets/img/favicon.png">
+<title>HappyThemes</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v8.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="HappyThemes &raquo; Feed" href="/feed/" />
+<link rel="alternate" type="application/rss+xml" title="HappyThemes &raquo; Comments Feed" href="/comments/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.2.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_version         = '7.2.0';
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-84231829-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-84231829-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.happythemes.com\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='bbp-default-css'  href='/wp-content/plugins/bbpress/templates/default/css/bbpress.css' type='text/css' media='screen' />
+<link rel='stylesheet' id='happythemes-style-css'  href='/wp-content/themes/happythemes/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsive-style-css'  href='/wp-content/themes/happythemes/responsive.css' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<!-- userLayoutHead() start -->
+
+
+<link href="/member/application/default/views/public/css/amember.css" media="screen" rel="stylesheet" type="text/css" >
+<!--[if IE 7]> <link href="/member/application/default/views/public/css/ie-7.css" media="screen" rel="stylesheet" type="text/css" ><![endif]-->
+<link href="/member/public/theme/css/theme.css?6" media="screen" rel="stylesheet" type="text/css" >
+<link href="/member/application/default/views/public/js/jquery/jquery.ui.css" media="screen" rel="stylesheet" type="text/css" >
+
+<script type="text/javascript">
+    //<!--
+    if (typeof jQuery == 'undefined') {document.write('<script type="text/javascript" src="/member/application/default/views/public/js/jquery/jquery.js"></scr'+'ipt>');} else {$=jQuery;}    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+    window.uiDefaultDate = new Date(2019,2,21);
+    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+    window.uiDateFormat = "mm\/dd\/y";
+    //-->
+</script>
+<script type="text/javascript">
+    //<!--
+    window.rootUrl = "\/member"; //kept for compatibilty only! use amUrl() instead
+function amUrl(u) {return "\/member" + u;};
+window.CKEDITOR_BASEPATH = amUrl('/application/default/views/public/js/ckeditor/');
+window.amLangCount = 0;    //-->
+</script>
+<script type="text/javascript" src="/member/application/default/views/public/js/jquery/jquery.ui.js"></script>
+<script type="text/javascript" src="/member/application/default/views/public/js/user.js"></script>
+<script type="text/javascript" src="/member/application/default/views/public/js/upload.js"></script>
+
+<!-- userLayoutHead() finish -->
+		<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+#featured-content .featured-right img {
+	border: 1px solid #e9e9e9;
+}		</style>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+<link rel='stylesheet' id='happythemes-custom-css'  href='/wp-content/themes/happythemes/custom.css' type='text/css' media='all' />
+
+</head>
+
+<body class="dwpb-push-page dwpb-allow-close dwpb_responsive_extra_small hfeed">
+
+<div id="page" class="site">
+
+	<header id="site-header" class="site-header clearfix">
+		
+			<div class="site-branding">
+				<div id="logo">
+					<a href="/" rel="home">
+						<div class="logo-image"></div>
+						<!--<em>3,000+ Customers</em>-->
+					</a>
+				</div>
+			</div>
+
+			<nav id="site-navigation" class="main-navigation">
+
+				<div class="menu-wrapper"><ul id="menu-primary-items" class="menu-primary-items"><li id="menu-item-30" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30"><a href="/wordpress-themes">WordPress Themes</a></li>
+<li id="menu-item-672" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-672"><a href="/join/">Pricing</a></li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="/affiliate-program/">Affiliates</a></li>
+<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="/blog/">Blog</a></li>
+<li id="menu-item-29" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-29"><a href="/contact/">Contact</a></li>
+</ul></div>
+			</nav><!-- #site-navigation -->
+
+			<div class="header-action">
+			<ul>
+				<li class="nav-btn"><a class="btn primary" href="/join/">Sign Up</a></li>
+				<li class="nav-link"><a href="/member/member/">Login</a></li>
+				<li class="nav-menu">
+					<span class="mobile-menu-icon">
+						<span class="menu-icon-open"><i class="fa fa-bars"></i></span>
+						<span class="menu-icon-close"><i class="fa fa-close"></i></span>		
+					</span>					
+				
+				</li>												
+			</ul>
+				
+			</div>
+
+	</header><!-- #masthead -->
+
+	<div id="content" class="site-content clearfix">
+<div style="padding:0 1em;">
+<div class="am-body-content">
+        <div class="am-body-content-top">
+                                </div>
+    <!-- content starts here -->
+    <div class="am-login-form-wrapper" >
+        <div class="am-form am-auth-form am-login-form">
+        <form name="login" method="post" action='/member/login' id="am-login-form">
+    <fieldset>
+        <legend>Login to your Account</legend>
+        <div class="row row-login-recaptcha" id="recaptcha-row" style="display: none;"  data-recaptcha-theme="light" data-recaptcha-size="normal">
+            <div class="element am-element-recaptcha" id="recaptcha-element"></div>
+        </div>
+        <div class="row row-login-login">
+            <div class="element-title">
+                <label class="element-title" for="amember-login">Username/Email</label>
+            </div>
+            <div class="element">
+                <input type="text" id="amember-login" name="amember_login" size="15" value="" autofocus="autofocus"  placeholder="Username/Email" />
+            </div>
+        </div>
+        <div class="row row-login-pass">
+            <div class="element-title">
+                <label class="element-title" for="amember-pass">Password</label>
+            </div>
+            <div class="element">
+                <input type="password" id="amember-pass" name="amember_pass" class="am-pass-reveal" size="15" placeholder="Password" />
+                            </div>
+        </div>
+        <div class="row row-buttons">
+            <div class="element">
+                <input type="submit" value="Login" />
+                <a href="/member/login?sendpass" class="local-link am-form-login-switch">Forgot password?</a>
+            </div>
+        </div>
+    </fieldset>
+    <input type="hidden" name="login_attempt_id" value="1553158842" />
+<input type="hidden" name="amember_redirect_url" value="/forum/topic/css-and-comments/" />
+</form>    </div>
+    </div>
+<div class="am-sendpass-form-wrapper" >
+    <div class="am-form am-auth-form am-sendpass-form">
+        <form name="sendpass" method="post" action="/member/sendpass" id="am-sendpass-form">
+            <fieldset>
+                <legend>Lost password?</legend>
+                                <div class="row row-sendpass-email">
+                    <div class="element-title">
+                        <label for="sendpass">Username/Email</label>
+                    </div>
+                    <div class="element"><input type="text" name="login" id="sendpass" size="15" placeholder="Username/Email" /></div>
+                </div>
+                <div class="row row-buttons">
+                    <div class="element">
+                        <input type="submit" value="Get Password" />
+                        <a href="/member/login" class="local-link am-form-login-switch">Log In</a>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<script type="text/javascript">
+jQuery('.am-form-login-switch').click(function(){
+    jQuery('.am-login-form-wrapper, .am-sendpass-form-wrapper').toggle();
+    jQuery('.am-login-form-wrapper .errors, .am-sendpass-form-wrapper .errors, .am-body-content .errors').remove();
+    return false;
+});
+jQuery('.am-login-form-wrapper form, .am-sendpass-form-wrapper form').submit(function(){
+    jQuery('.am-body-content .errors').remove();
+});
+</script><div class="am-signup-link">Not registered yet? <a href="/member/signup">Signup here</a></div>
+</div>
+<div id="am-flash" class="am-flash">
+    <div class="am-flash-mask"></div>
+    <div class="am-flash-content"></div>
+</div><p class="am-copyright">Built on <a href="http://www.amember.com/" title="flexible, user-friendly membership software (subscription script)">aMember Pro&trade; membership software</a></p>
+</div>
+		<div class="clearfix"></div>
+
+	</div><!-- #content -->
+
+	<footer id="colophon" class="site-footer">
+
+		<div class="footer-widgets container clearfix">	
+			<div class="footer-widget">
+				<h3 class="widget-title">Company</h3>
+				<ul>
+					<li><a href="/about/">About Us</a></li>
+					<li><a href="/affiliate-program/">Affiliate Program</a></li>					
+					<li><a href="/blog/">Blog</a></li>
+				</ul>
+			</div>
+			<div class="footer-widget">
+				<h3 class="widget-title">Products</h3>
+				<ul>
+					<li><a href="/wordpress-themes/">WordPress Themes</a></li>
+					<li><a href="/join/">Theme Pricing</a></li>
+					<li><a href="/theme-demo-content/">Theme Demo Content</a></li>		
+				</ul>
+			</div>
+			<div class="footer-widget">
+				<h3 class="widget-title">Support</h3>
+				<ul>
+					<li><a href="/contact/">Contact Us</a></li>	
+					<li><a href="/documentation/">Documentation</a></li>													
+					<li><a href="/forum/">Support Forum</a></li>
+				</ul>
+			</div>	
+			<div class="footer-widget last social-widget">
+				<h3 class="widget-title">Connect</h3>
+				<ul>
+					<li class="icon-twitter"><a href="http://twitter.com/HappyThemesHQ">Follow on Twitter</a></li>
+					<li class="icon-google-plus"><a href="https://plus.google.com/u/0/b/103655017427088274659/">Join us on Google+</a></li>
+					<li class="icon-facebook"><a href="http://www.facebook.com/HappyThemesHQ">Like us on Facebook</a></li>													
+				</ul>
+			</div>											
+		</div>
+
+		<div class="site-info">
+			<div class="container">
+				<div class="line"></div>
+				&copy; 2019 <a href="https://www.happythemes.com">HappyThemes</a> <span>&middot;</span> <a href="/privacy/">Privacy</a> <span>&middot;</span> <a href="/terms/">Terms</a> <span>&middot;</span> <a href="/refund-policy/">Refund Policy</a>
+			</div><!-- .container -->
+		</div><!-- .site-info -->
+
+	</footer><!-- #colophon -->
+
+</div><!-- #page -->
+
+<script type="text/javascript">
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	for (i = 0; i < acc.length; i++) {
+	    acc[i].onclick = function(){
+	        this.classList.toggle("active");
+	        this.nextElementSibling.classList.toggle("show");
+	    }
+	}
+
+	(function($){ //create closure so we can safely use $ as alias for jQuery
+
+	    $(document).ready(function(){
+
+	        "use strict";
+
+
+	        /*-----------------------------------------------------------------------------------*/
+	        /*  Back to Top
+	        /*-----------------------------------------------------------------------------------*/
+	        // hide #back-top first
+	        $(".home .nav-btn").hide();
+
+	        $(function () {
+	            // fade in .nav-btn
+	            $(window).scroll(function () {
+	                if ($(this).scrollTop() > 300) {
+	                    $('.home .nav-btn').fadeIn('200');
+	                } else {
+	                    $('.home .nav-btn').fadeOut('200');
+	                }
+	            });
+
+	        });                                     
+
+	        /*-----------------------------------------------------------------------------------*/
+	        /*  Mobile Menu & Search
+	        /*-----------------------------------------------------------------------------------*/
+
+	        /* Mobile Menu */
+	        $('.menu-icon-open').click(function(){
+
+	            $('.main-navigation').slideDown('fast', function() {});
+	            $('.menu-icon-open').toggleClass('active');
+	            $('.menu-icon-close').toggleClass('active');  
+
+	        });
+
+	        $('.menu-icon-close').click(function(){
+
+	            $('.main-navigation').slideUp('fast', function() {});
+	            $('.menu-icon-open').toggleClass('active');
+	            $('.menu-icon-close').toggleClass('active');        
+
+	        });
+     
+
+	    });
+
+	})(jQuery);
+
+</script>
+
+<link rel='stylesheet' id='dwpb_style-css'  href='/wp-content/plugins/dw-promobar/assets/css/main.css' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='/wp-includes/css/dashicons.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-content/plugins/bbpress/templates/default/js/editor.js'></script>
+<script type='text/javascript' src='/wp-content/themes/happythemes/js/navigation.js'></script>
+<script type='text/javascript' src='/wp-content/themes/happythemes/js/skip-link-focus-fix.js'></script>
+<script type='text/javascript' src='/wp-content/themes/happythemes/js/custom.js'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dwpb = {"timeleft":"-62838042","reset_cookie":"11"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/dw-promobar/assets/js/vendor/jquery.countdown.js'></script>
+<script type='text/javascript' src='/wp-content/plugins/dw-promobar/assets/js/vendor/jquery.cookie.js'></script>
+<script type='text/javascript' src='/wp-content/plugins/dw-promobar/assets/js/main.js'></script>
+		<style>
+						@font-face {
+        font-family: "0";
+        src: url('');
+      }
+			#dwpb {
+				font-family: 0;
+			}
+			
+						#dwpb,
+			.dwpb-action {
+				background-color: #037ef3;
+			}
+			
+			
+						#dwpb,
+			.dwpb-action,
+			body.dwpb-allow-close.dwpb-open .dwpb-close {
+				color: #fff;
+			}
+			
+						#dwpb {
+				font-size: 16px;
+			}
+			
+			
+			
+						#dwpb {
+				border-width: 0;
+			}
+			
+						#dwpb a {
+				color: #fff;
+			}
+			
+						#dwpb .dwpb-button {
+				background-color: #ffbe02;
+			}
+			
+					</style>
+		
+		<div id="dwpb" class=" fixtop ">
+			<div class="dwpb-inner">
+				
+				<div class="dwpb-message ">
+					<span class="dwpb-content">Get All Themes For Only $49</span>
+					 <a class="dwpb-button" href="/join " target="_self"" >Download Now</a>				</div>
+					
+				<div class="dwpb-countdown hide">
+					<div class="dwpb-counter"></div>
+					<span class="dwpbcd-content">50% Off Coupon Code: HAPPYTHEMES</span>
+					 <a class="dwpb-button" href="/member/signup/ " target="_self"" >Get Lifetime Membership</a>				</div>
+			</div>
+		</div>
+				<span class="dwpb-close"></span>
+	
+
+<!-- start of GA code -->
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+if (typeof(_gaq)=='object') { // sometimes google-analytics can be blocked and we will avoid error
+    _gaq.push(['_setAccount', 'UA-89318837-1']);
+    _gaq.push(['_trackPageview']);
+}
+</script>
+<!-- end of GA code -->
+</body>
+</html>
+
+
+
