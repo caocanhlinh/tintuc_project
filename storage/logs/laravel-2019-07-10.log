@@ -1,0 +1,642 @@
+[2019-07-10 10:24:28] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 10:26:02] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 10:27:33] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 10:29:03] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 10:31:35] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 10:33:07] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 10:34:02] local.ERROR: Command "laravel-echo-server" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"laravel-echo-server\" is not defined. at /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php:639)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(233): Symfony\\Component\\Console\\Application->find('laravel-echo-se...')
+#1 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-07-10 10:34:29] local.ERROR: Too many arguments, expected arguments "command". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments, expected arguments \"command\". at /home/vagrant/code/caocanhlinh/vendor/symfony/console/Input/ArgvInput.php:183)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument('restart')
+#1 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#2 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Command/Command.php(214): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#4 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(908): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(269): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\ServeCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2019-07-10 10:34:55] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 10:50:28] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 10:50:52] local.ERROR: Too many arguments, expected arguments "command". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments, expected arguments \"command\". at /home/vagrant/code/caocanhlinh/vendor/symfony/console/Input/ArgvInput.php:183)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument('stop')
+#1 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#2 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Command/Command.php(214): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#4 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(908): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(269): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\EventGenerateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2019-07-10 10:51:02] local.ERROR: Command "event" is not defined.
+
+Did you mean one of these?
+    event:generate
+    make:event {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"event\" is not defined.
+
+Did you mean one of these?
+    event:generate
+    make:event at /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php:639)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(233): Symfony\\Component\\Console\\Application->find('event')
+#1 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-07-10 10:55:32] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 10:57:04] local.ERROR: Command "queue:kaa" is not defined.
+
+Did you mean one of these?
+    queue:failed
+    queue:failed-table
+    queue:flush
+    queue:forget
+    queue:listen
+    queue:restart
+    queue:retry
+    queue:table
+    queue:work {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"queue:kaa\" is not defined.
+
+Did you mean one of these?
+    queue:failed
+    queue:failed-table
+    queue:flush
+    queue:forget
+    queue:listen
+    queue:restart
+    queue:retry
+    queue:table
+    queue:work at /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php:639)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(233): Symfony\\Component\\Console\\Application->find('queue:kaa')
+#1 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-07-10 10:57:37] local.ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tintuc.failed_jobs' doesn't exist (SQL: delete from `failed_jobs`) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tintuc.failed_jobs' doesn't exist (SQL: delete from `failed_jobs`) at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php:664, PDOException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tintuc.failed_jobs' doesn't exist at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php:479)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('delete from `fa...', Array, Object(Closure))
+#1 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php(490): Illuminate\\Database\\Connection->run('delete from `fa...', Array, Object(Closure))
+#2 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php(435): Illuminate\\Database\\Connection->affectingStatement('delete from `fa...', Array)
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2743): Illuminate\\Database\\Connection->delete('delete from `fa...', Array)
+#4 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Queue/Failed/DatabaseFailedJobProvider.php(105): Illuminate\\Database\\Query\\Builder->delete()
+#5 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Queue/Console/FlushFailedCommand.php(30): Illuminate\\Queue\\Failed\\DatabaseFailedJobProvider->flush()
+#6 [internal function]: Illuminate\\Queue\\Console\\FlushFailedCommand->handle()
+#7 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#8 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#9 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/Container.php(580): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#12 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(908): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(269): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Queue\\Console\\FlushFailedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 {main}
+"} 
+[2019-07-10 10:58:11] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 10:58:29] local.ERROR: Not enough arguments (missing: "id"). {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Not enough arguments (missing: \"id\"). at /home/vagrant/code/caocanhlinh/vendor/symfony/console/Input/Input.php:76)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Command/Command.php(250): Symfony\\Component\\Console\\Input\\Input->validate()
+#1 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#2 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(908): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(269): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Queue\\Console\\ForgetFailedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-07-10 10:58:53] local.ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tintuc.failed_jobs' doesn't exist (SQL: delete from `failed_jobs` where `id` = timmoi.notification-development) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tintuc.failed_jobs' doesn't exist (SQL: delete from `failed_jobs` where `id` = timmoi.notification-development) at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php:664, PDOException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tintuc.failed_jobs' doesn't exist at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php:479)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('delete from `fa...', Array, Object(Closure))
+#1 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php(490): Illuminate\\Database\\Connection->run('delete from `fa...', Array, Object(Closure))
+#2 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php(435): Illuminate\\Database\\Connection->affectingStatement('delete from `fa...', Array)
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2743): Illuminate\\Database\\Connection->delete('delete from `fa...', Array)
+#4 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Queue/Failed/DatabaseFailedJobProvider.php(95): Illuminate\\Database\\Query\\Builder->delete()
+#5 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Queue/Console/ForgetFailedCommand.php(30): Illuminate\\Queue\\Failed\\DatabaseFailedJobProvider->forget('timmoi.notifica...')
+#6 [internal function]: Illuminate\\Queue\\Console\\ForgetFailedCommand->handle()
+#7 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#8 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#9 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/Container.php(580): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#12 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(908): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(269): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Queue\\Console\\ForgetFailedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 {main}
+"} 
+[2019-07-10 10:59:19] local.ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tintuc.failed_jobs' doesn't exist (SQL: delete from `failed_jobs` where `id` = AppEventsHelloPusherEvent) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tintuc.failed_jobs' doesn't exist (SQL: delete from `failed_jobs` where `id` = AppEventsHelloPusherEvent) at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php:664, PDOException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tintuc.failed_jobs' doesn't exist at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php:479)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('delete from `fa...', Array, Object(Closure))
+#1 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php(490): Illuminate\\Database\\Connection->run('delete from `fa...', Array, Object(Closure))
+#2 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php(435): Illuminate\\Database\\Connection->affectingStatement('delete from `fa...', Array)
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2743): Illuminate\\Database\\Connection->delete('delete from `fa...', Array)
+#4 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Queue/Failed/DatabaseFailedJobProvider.php(95): Illuminate\\Database\\Query\\Builder->delete()
+#5 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Queue/Console/ForgetFailedCommand.php(30): Illuminate\\Queue\\Failed\\DatabaseFailedJobProvider->forget('AppEventsHelloP...')
+#6 [internal function]: Illuminate\\Queue\\Console\\ForgetFailedCommand->handle()
+#7 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#8 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#9 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/Container.php(580): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#12 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(908): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(269): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Queue\\Console\\ForgetFailedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 {main}
+"} 
+[2019-07-10 10:59:42] local.ERROR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tintuc.failed_jobs' doesn't exist (SQL: delete from `failed_jobs` where `id` = sys) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tintuc.failed_jobs' doesn't exist (SQL: delete from `failed_jobs` where `id` = sys) at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php:664, PDOException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tintuc.failed_jobs' doesn't exist at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php:479)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php(624): Illuminate\\Database\\Connection->runQueryCallback('delete from `fa...', Array, Object(Closure))
+#1 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php(490): Illuminate\\Database\\Connection->run('delete from `fa...', Array, Object(Closure))
+#2 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Connection.php(435): Illuminate\\Database\\Connection->affectingStatement('delete from `fa...', Array)
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(2743): Illuminate\\Database\\Connection->delete('delete from `fa...', Array)
+#4 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Queue/Failed/DatabaseFailedJobProvider.php(95): Illuminate\\Database\\Query\\Builder->delete()
+#5 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Queue/Console/ForgetFailedCommand.php(30): Illuminate\\Queue\\Failed\\DatabaseFailedJobProvider->forget('sys')
+#6 [internal function]: Illuminate\\Queue\\Console\\ForgetFailedCommand->handle()
+#7 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(32): call_user_func_array(Array, Array)
+#8 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(90): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#9 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#10 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Container/Container.php(580): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#11 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(183): Illuminate\\Container\\Container->call(Array)
+#12 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Command/Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#14 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(908): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(269): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Queue\\Console\\ForgetFailedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#20 {main}
+"} 
+[2019-07-10 11:00:09] local.ERROR: Command "queue:faled_table" is not defined.
+
+Did you mean one of these?
+    queue:failed
+    queue:failed-table
+    queue:flush
+    queue:forget
+    queue:listen
+    queue:restart
+    queue:retry
+    queue:table
+    queue:work {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"queue:faled_table\" is not defined.
+
+Did you mean one of these?
+    queue:failed
+    queue:failed-table
+    queue:flush
+    queue:forget
+    queue:listen
+    queue:restart
+    queue:retry
+    queue:table
+    queue:work at /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php:639)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(233): Symfony\\Component\\Console\\Application->find('queue:faled_tab...')
+#1 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-07-10 11:01:47] local.ERROR: Not enough arguments (missing: "id"). {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Not enough arguments (missing: \"id\"). at /home/vagrant/code/caocanhlinh/vendor/symfony/console/Input/Input.php:76)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Command/Command.php(250): Symfony\\Component\\Console\\Input\\Input->validate()
+#1 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#2 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(908): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(269): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Queue\\Console\\RetryCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-07-10 11:02:18] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 11:02:57] local.ERROR: Command "make:events" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:events\" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php:639)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(233): Symfony\\Component\\Console\\Application->find('make:events')
+#1 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-07-10 11:07:19] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 11:07:34] local.ERROR: syntax error, unexpected ';', expecting '{' {"userId":1,"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected ';', expecting '{' at /home/vagrant/code/caocanhlinh/app/Events/ConfirmPosts.php:13)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/composer/ClassLoader.php(322): Composer\\Autoload\\includeFile('/home/vagrant/c...')
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass('App\\\\Events\\\\Conf...')
+#2 /home/vagrant/code/caocanhlinh/app/Http/Controllers/TinTucController.php(190): spl_autoload_call('App\\\\Events\\\\Conf...')
+#3 [internal function]: App\\Http\\Controllers\\TinTucController->getDelete('1535')
+#4 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#5 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('getDelete', Array)
+#6 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Route.php(219): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TinTucController), 'getDelete')
+#7 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Route.php(176): Illuminate\\Routing\\Route->runController()
+#8 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(680): Illuminate\\Routing\\Route->run()
+#9 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#10 /home/vagrant/code/caocanhlinh/app/Http/Middleware/AdminLoginMiddleware.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): App\\Http\\Middleware\\AdminLoginMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(75): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(59): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#26 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(66): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#29 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#32 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(682): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#33 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(657): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#34 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(623): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#35 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(612): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#36 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#37 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#38 /home/vagrant/code/caocanhlinh/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#39 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#45 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#46 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#47 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#48 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#51 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#54 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#55 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#56 /home/vagrant/code/caocanhlinh/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#57 {main}
+"} 
+[2019-07-10 11:08:03] local.ERROR: Cannot access private property App\Events\ConfirmPosts::$item_event {"userId":1,"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Cannot access private property App\\Events\\ConfirmPosts::$item_event at /home/vagrant/code/caocanhlinh/app/Listeners/ConfirmPostsListener.php:29)
+[stacktrace]
+#0 [internal function]: App\\Listeners\\ConfirmPostsListener->handle(Object(App\\Events\\ConfirmPosts))
+#1 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(366): call_user_func_array(Array, Array)
+#2 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Events/Dispatcher.php(196): Illuminate\\Events\\Dispatcher->Illuminate\\Events\\{closure}('App\\\\Events\\\\Conf...', Array)
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(482): Illuminate\\Events\\Dispatcher->dispatch('App\\\\Events\\\\Conf...')
+#4 /home/vagrant/code/caocanhlinh/app/Http/Controllers/TinTucController.php(190): event(Object(App\\Events\\ConfirmPosts))
+#5 [internal function]: App\\Http\\Controllers\\TinTucController->getDelete('1533')
+#6 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#7 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('getDelete', Array)
+#8 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Route.php(219): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TinTucController), 'getDelete')
+#9 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Route.php(176): Illuminate\\Routing\\Route->runController()
+#10 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(680): Illuminate\\Routing\\Route->run()
+#11 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /home/vagrant/code/caocanhlinh/app/Http/Middleware/AdminLoginMiddleware.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#13 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): App\\Http\\Middleware\\AdminLoginMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(75): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(59): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#28 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(66): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#31 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#34 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(682): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#35 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(657): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#36 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(623): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#37 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(612): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#38 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#39 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#40 /home/vagrant/code/caocanhlinh/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#41 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#44 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#47 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#50 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#53 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#55 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#56 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#57 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#58 /home/vagrant/code/caocanhlinh/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#59 {main}
+"} 
+[2019-07-10 11:08:40] local.ERROR: Trying to get property 'TieuDe' of non-object {"userId":1,"exception":"[object] (ErrorException(code: 0): Trying to get property 'TieuDe' of non-object at /home/vagrant/code/caocanhlinh/app/Http/Controllers/TinTucController.php:184)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/app/Http/Controllers/TinTucController.php(184): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Trying to get p...', '/home/vagrant/c...', 184, Array)
+#1 [internal function]: App\\Http\\Controllers\\TinTucController->getDelete('1533')
+#2 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): call_user_func_array(Array, Array)
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\\Routing\\Controller->callAction('getDelete', Array)
+#4 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Route.php(219): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\TinTucController), 'getDelete')
+#5 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Route.php(176): Illuminate\\Routing\\Route->runController()
+#6 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(680): Illuminate\\Routing\\Route->run()
+#7 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#8 /home/vagrant/code/caocanhlinh/app/Http/Middleware/AdminLoginMiddleware.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#9 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): App\\Http\\Middleware\\AdminLoginMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#12 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(75): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(59): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(66): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(682): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(657): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#32 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(623): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#33 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Router.php(612): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#34 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#35 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#36 /home/vagrant/code/caocanhlinh/vendor/fideloper/proxy/src/TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#37 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#40 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#43 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#46 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#49 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(163): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#52 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#53 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#54 /home/vagrant/code/caocanhlinh/public/index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#55 {main}
+"} 
+[2019-07-10 11:08:50] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 11:10:23] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 11:22:09] local.ERROR: Too many arguments, expected arguments "command". {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Too many arguments, expected arguments \"command\". at /home/vagrant/code/caocanhlinh/vendor/symfony/console/Input/ArgvInput.php:183)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Input/ArgvInput.php(86): Symfony\\Component\\Console\\Input\\ArgvInput->parseArgument('cache')
+#1 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#2 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Command/Command.php(214): Symfony\\Component\\Console\\Input\\Input->bind(Object(Symfony\\Component\\Console\\Input\\InputDefinition))
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#4 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(908): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(269): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\ClearCompiledCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#9 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 {main}
+"} 
+[2019-07-10 11:23:30] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 11:25:08] local.ERROR: Command "event:list" is not defined.
+
+Did you mean one of these?
+    event:generate
+    make:listener
+    queue:listen
+    route:list {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"event:list\" is not defined.
+
+Did you mean one of these?
+    event:generate
+    make:listener
+    queue:listen
+    route:list at /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php:639)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(233): Symfony\\Component\\Console\\Application->find('event:list')
+#1 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-07-10 11:25:25] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 11:25:59] local.ERROR: Command "queue:aaa" is not defined.
+
+Did you mean one of these?
+    queue:failed
+    queue:failed-table
+    queue:flush
+    queue:forget
+    queue:listen
+    queue:restart
+    queue:retry
+    queue:table
+    queue:work {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"queue:aaa\" is not defined.
+
+Did you mean one of these?
+    queue:failed
+    queue:failed-table
+    queue:flush
+    queue:forget
+    queue:listen
+    queue:restart
+    queue:retry
+    queue:table
+    queue:work at /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php:639)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(233): Symfony\\Component\\Console\\Application->find('queue:aaa')
+#1 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-07-10 11:26:07] local.ERROR: Not enough arguments (missing: "id"). {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): Not enough arguments (missing: \"id\"). at /home/vagrant/code/caocanhlinh/vendor/symfony/console/Input/Input.php:76)
+[stacktrace]
+#0 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Command/Command.php(250): Symfony\\Component\\Console\\Input\\Input->validate()
+#1 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Command.php(170): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#2 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(908): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(269): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Queue\\Console\\ForgetFailedCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /home/vagrant/code/caocanhlinh/vendor/symfony/console/Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#7 /home/vagrant/code/caocanhlinh/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2019-07-10 11:27:20] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 11:39:41] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 11:41:12] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 11:42:43] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 11:44:15] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 
+[2019-07-10 11:45:46] local.ERROR: method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition "App\Events\HelloPusherEvent" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): method_exists(): The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition \"App\\Events\\HelloPusherEvent\" of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide an autoloader to load the class definition at /home/vagrant/code/caocanhlinh/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastEvent.php:43)
+[stacktrace]
+#0 {main}
+"} 

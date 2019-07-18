@@ -1,0 +1,394 @@
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+Error: There is already a server running! Use the option '--force' to stop it and start another one.
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+Error: There is already a server running! Use the option '--force' to stop it and start another one.
+Error: There is already a server running! Use the option '--force' to stop it and start another one.
+Error: There is already a server running! Use the option '--force' to stop it and start another one.
+Error: There is already a server running! Use the option '--force' to stop it and start another one.
+Error: There is already a server running! Use the option '--force' to stop it and start another one.
+Error: There is already a server running! Use the option '--force' to stop it and start another one.
+Error: There is already a server running! Use the option '--force' to stop it and start another one.
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+Channel: channel-demo-real-time
+Event: App\Events\MessagePushed
+Channel: channel-demo-real-time
+Event: App\Events\MessagePushed
+Channel: channel-demo-real-time
+Event: App\Events\MessagePushed
+Channel: channel-demo-real-time
+Event: App\Events\MessagePushed
+Channel: channel-demo-real-time
+Event: App\Events\MessagePushed
+Channel: channel-demo-real-time
+Event: App\Events\MessagePushed
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+Channel: development
+Event: App\Events\HelloPusherEvent
+Channel: development
+Event: App\Events\HelloPusherEvent
+Channel: development
+Event: App\Events\HelloPusherEvent
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+[ioredis] Unhandled error event: Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1097:14)
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
+
+L A R A V E L  E C H O  S E R V E R
+
+version 1.5.5
+
+⚠ Starting server in DEV mode...
+
+✔  Running at localhost on port 6001
+✔  Channels are ready.
+✔  Listening for http events...
+✔  Listening for redis events...
+
+Server ready!
+
