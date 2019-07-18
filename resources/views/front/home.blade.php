@@ -75,10 +75,10 @@
 
 					<?php 
 						$i=0;
-						$data=$cat->tintuc->sortByDesc('id')->take(6);
+						$data=$cat->tintuc->sortByDesc('id')->take(5);
 					?>
 					@foreach($data->all() as $news)
-						<div class="latest-square hentry @if($i==5) {{'last'}} @endif ">
+						<div class="latest-square hentry @if($i==4) {{'last'}} @endif ">
 
 							<div class="entry-header clear">
 								<h2 class="entry-title"><a href="detail/post/{{$news['id']}}">{{$news['TieuDe']}}</a></h2>

@@ -31,9 +31,10 @@
     27 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
     28 => 'App\\Providers\\AppServiceProvider',
     29 => 'App\\Providers\\AuthServiceProvider',
-    30 => 'App\\Providers\\EventServiceProvider',
-    31 => 'App\\Providers\\RouteServiceProvider',
-    32 => 'Intervention\\Image\\ImageServiceProvider',
+    30 => 'App\\Providers\\BroadcastServiceProvider',
+    31 => 'App\\Providers\\EventServiceProvider',
+    32 => 'App\\Providers\\RouteServiceProvider',
+    33 => 'Intervention\\Image\\ImageServiceProvider',
   ),
   'eager' => 
   array (
@@ -53,9 +54,10 @@
     13 => 'Carbon\\Laravel\\ServiceProvider',
     14 => 'App\\Providers\\AppServiceProvider',
     15 => 'App\\Providers\\AuthServiceProvider',
-    16 => 'App\\Providers\\EventServiceProvider',
-    17 => 'App\\Providers\\RouteServiceProvider',
-    18 => 'Intervention\\Image\\ImageServiceProvider',
+    16 => 'App\\Providers\\BroadcastServiceProvider',
+    17 => 'App\\Providers\\EventServiceProvider',
+    18 => 'App\\Providers\\RouteServiceProvider',
+    19 => 'Intervention\\Image\\ImageServiceProvider',
   ),
   'deferred' => 
   array (

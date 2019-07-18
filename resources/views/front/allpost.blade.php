@@ -58,14 +58,13 @@
 @endsection
 
 @section('script')
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="js/jquery.jscroll.min.js"></script>
 	<script type="text/javascript">
 	    $('ul.pagination').hide();
 	    $(function() {
 	        $('.infinite-scroll').jscroll({
 	            autoTrigger: true,
-	            loadingHtml: '<span>Đang tải...</span><img class="center-block" src="image/system/bx_loader.gif" alt="Loading..." />',
+	            loadingHtml: '<img class="center-block" src="image/system/bx_loader.gif" alt="Loading..." /><span>Đang tải...</span>',
 	            padding: 0,
 	            nextSelector: '.pagination li.active + li a',
 	            contentSelector: 'div.infinite-scroll',

@@ -3,11 +3,12 @@
 namespace App;
 
 use App\Traits\Cacheable;
+use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Model;
 
 class TinTuc extends Model
 {
-    //
+    use Notifiable;
     //use Cacheable;
 
     protected $cacheTime = 10;

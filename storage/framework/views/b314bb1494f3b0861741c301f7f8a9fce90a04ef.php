@@ -18,9 +18,9 @@
 				<?php $__currentLoopData = $tintuc; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $news): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
 				<div id="post-74" class="clear last post-74 post type-post status-publish format-standard has-post-thumbnail hentry category-social-media">	
 
-					<a class="thumbnail-link" href="https://www.happythemes.com/demo/newsnow/prague-astronomical-clock-in-the-old-town-square/">
+					<a class="thumbnail-link" href="detail/post/<?php echo e($news->id); ?>-<?php echo e($news->TieuDeKhongDau); ?>">
 						<div class="outer-div thumbnail-wrap">
-							<img width="300" height="200" src="./24-300x200.jpg" class="inner-div attachment-post_thumb size-post_thumb wp-post-image" alt="" srcset="https://www.happythemes.com/demo/newsnow/wp-content/uploads/sites/10/2017/06/24-300x200.jpg 300w, https://www.happythemes.com/demo/newsnow/wp-content/uploads/sites/10/2017/06/24-768x512.jpg 768w, https://www.happythemes.com/demo/newsnow/wp-content/uploads/sites/10/2017/06/24-1024x683.jpg 1024w, https://www.happythemes.com/demo/newsnow/wp-content/uploads/sites/10/2017/06/24-720x480.jpg 720w, https://www.happythemes.com/demo/newsnow/wp-content/uploads/sites/10/2017/06/24-600x400.jpg 600w" sizes="(max-width: 300px) 100vw, 300px">			
+							<img width="300" height="200" class="inner-div attachment-post_thumb size-post_thumb wp-post-image" alt="<?php echo e($news->TieuDe); ?>" src="image/tintuc/<?php echo e($news->Hinh); ?>">
 						</div><!-- .thumbnail-wrap -->
 					</a>
 						

@@ -1,15 +1,75 @@
 <?php /* /home/vagrant/code/caocanhlinh/resources/views/front/layout/aside.blade.php */ ?>
 <aside id="secondary" class="widget-area sidebar">
 
+  	<style type="text/css">
 
-	<div id="happythemes-ad-13" class="widget widget_ad ad-widget"><div class="adwidget"><a href="http://www.happythemes.com/join/" target="_blank"><img src="image/ads/300-1.png" alt="Ad Widget"></a></div></div><div id="search-3" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://www.happythemes.com/demo/newsnow/">
-				<label>
-					<span class="screen-reader-text">Search for:</span>
-					<input type="search" class="search-field" placeholder="Search …" value="" name="s">
-				</label>
-				<input type="submit" class="search-submit" value="Search">
-			</form>
+    
+    /* Formatting search box */
+    .search-box{
+        position: relative;
+        display: inline-block;
+        font-size: 12px;
+    }
+    .result{
+    	background: #EEE;
+        position: absolute;
+        margin-right:3px;         
+        z-index: 999;
+        top: 100%;
+        left: 0;
+        border: 1px solid #CCC;
+        border-top: none;
+        
+    }
+    .search-box input[type="text"], .result{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    /* Formatting result items */
+    .result ul{
+        margin: 0;
+        padding: 2px;
+        cursor: pointer;
+        overflow: auto;
+    }
+    .result li{
+        margin: 0 !important;
+        padding: 5px 5px 5px 0;
+        cursor: pointer;
+        overflow: auto;
+        border-bottom: 1px solid #DDD;
+    }
+    .result li:hover{
+        background: #FFF;
+    }
+    .result li a{
+        text-decoration: none;
+    }
+    .result li img{
+        margin: 0;
+        padding-right: 4px;
+       	display: inline;
+       	float: left;
+    }
+</style>
+  	<div id="search-3" class="search-box widget widget_search">
+		            
+    	<label>
+    		<span class="screen-reader-text">Search for:</span>
+            <input type="text" name="search" id="search" class="search-field" autocomplete="off" placeholder="Search News Data" />
+        </label>
+        <input type="submit" class="search-submit" value="Search">
+        <div class="result" style="display: none;">
+            
+            <ul id="output"></ul>
 		</div>
+					 
+	</div>
+	<div id="happythemes-ad-13" class="widget widget_ad ad-widget">
+		<div class="adwidget"><a href="http://www.happythemes.com/join/" target="_blank"><img src="image/ads/300-1.png" alt="Ad Widget"></a></div>
+	</div>
+	
+
 		<div class="fb-page"data-href="https://www.facebook.com/vnshoestore" data-width="300" data-hide-cover="false" data-show-facepile="false"></div>
 		
 		<div id="recent-comments-3" class="widget widget_recent_comments">
@@ -59,3 +119,43 @@
 </div>
 
 </aside><!-- #secondary -->
+<script type="text/javascript">
+	$(document).ready(function() {
+
+	    fetch_customer_data();
+
+	    function fetch_customer_data(query = '') {
+	        $.ajax({
+	            url: "<?php echo e(route('live_search.action')); ?>",
+	            method: 'GET',
+	            data: {
+	                query: query
+	            },
+	            dataType: 'json',
+	            success: function(data) {
+	                $('ul#output').html(data.table_data);
+	                $('#total_records').text(data.total_data);
+	            }
+	        })
+	    }
+		/*$('input#search', this)
+	        .focus(function(){
+	        	$('div.result').show();
+	        })
+	        .blur(function(){
+	            $('div.result').hide();
+	        });*/
+	        $('div#search-3').hover(function() {
+				    $('div.result').show();
+				}, function() {
+				    $('div.result').hide();
+				});
+	        
+
+	    $(document).on('keyup', '#search', function() {
+	    	//$('.result').show();
+	        var query = $(this).val();
+	        fetch_customer_data(query);
+	    });
+	});
+</script>

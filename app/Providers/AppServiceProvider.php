@@ -3,10 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Pagination\Paginator;
-use App\TheLoai;
-use App\LoaiTin;
-use App\TinTuc;
+use App\notifications;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -27,6 +24,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-       //
+        $noti=notifications::orderBy('id','DESC')->get();
+        view()->share('noti',$noti);
     }
 }

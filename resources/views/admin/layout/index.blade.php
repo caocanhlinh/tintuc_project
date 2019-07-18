@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NewsNow</title>
+    <title>Staff.TinMoi</title>
     <base href="{{asset("")}}">
+    <link rel="shortcut icon" href="image/ads/favicon.png">
     <!-- Main CSS-->
     <link rel="stylesheet" type="text/css" href="asset/css/main.css">
     <!-- Font-icon css-->

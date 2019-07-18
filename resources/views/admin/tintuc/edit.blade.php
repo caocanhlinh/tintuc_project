@@ -152,10 +152,7 @@
         ClassicEditor
             .create( document.querySelector( '#editor' ), {
                 // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
-                cloudServices: {
-                    tokenUrl: 'https://39915.cke-cs.com/token/dev/aUG9lKf1933F0GWAOkDhoAAREO5KRC4OvtfRb9DW5AHmPmierxs0D415z0nu',
-                    uploadUrl: 'https://39915.cke-cs.com/easyimage/upload/'
-                }
+                
             } )
             .then( editor => {
                 window.editor = editor;

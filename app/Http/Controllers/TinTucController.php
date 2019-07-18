@@ -9,7 +9,11 @@ use App\Theloai;
 use App\LoaiTin;
 use App\TinTuc;
 use App\comment;
+use App\notifications;
 use Intervention\Image\ImageManagerStatic as Image;
+use App\Events\ConfirmPosts;
+//use Notification;
+//use App\Notifications\ConfirmPosts;
 //use App\Traits\UploadTrait;
 
 
@@ -150,6 +154,9 @@ class TinTucController extends Controller
 
         // Check if a profile image has been uploaded
         if ($request->has('profile_image')) {
+            //Delete old image
+            unlink('image/tintuc/'.$tintuc->Hinh);
+            //Get new image
             $image = $request->file('profile_image');
             $name = str_slug($request->input('TieuDe')).'_'.time().'.'.$image->getClientOriginalExtension();
             $folder = public_path('/image/tintuc/');
@@ -165,7 +172,12 @@ class TinTucController extends Controller
         // Persist user record to database
 
         $tintuc->save();
-
+        $item_event='Cập nhật bài viết "'.$tintuc->TieuDe.'" thành công!';
+        event(new ConfirmPosts($item_event));
+        $noti=new notifications;
+        $noti->type="updated";
+        $noti->NoiDung=$item_event;
+        $noti->save();
         // Return user back and show a flash message
         return redirect('admin/tintuc/list')->with(['NewsDel' => 'Profile updated successfully.']);
     
@@ -174,8 +186,22 @@ class TinTucController extends Controller
     public function getDelete($id){
         $comment=comment::where('idTinTuc',$id)->delete();
         $tintuc=TinTuc::find($id);
-        unlink('image/tintuc/'.$tintuc->Hinh);
+        $item_event='Đã xóa bài viết "'.$tintuc->TieuDe.'"';
+        if (file_exists( public_path() . '/image/tintuc/' . $tintuc->Hinh) && $tintuc->Hinh != 'no_image.jpg') {
+            unlink('image/tintuc/'.$tintuc->Hinh);
+        }     
+ 
         $tintuc->delete();
+        event(new ConfirmPosts($item_event));
+        $noti=new notifications;
+        $noti->type="deleted";
+        $noti->NoiDung=$item_event;
+        $noti->save();
+        //$tintuc->notify(new ConfirmPosts($name));
         return redirect('admin/tintuc/list')->with('NewsDel',$tintuc->TieuDe);
+    }
+    public function getNotifications($id){
+        $noti=notifications::all();
+        return view('admin.dashboard',['notifications'=>$noti]);
     }
 }

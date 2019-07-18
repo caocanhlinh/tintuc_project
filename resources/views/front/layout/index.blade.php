@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="true">
+<link rel="shortcut icon" href="{{ asset('image/ads/favicon.png') }}">
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet"> 
@@ -13,9 +14,7 @@
 <title>NewsNow | Tin Tức Hằng Ngày Mới Nhất</title>
 <base href="{{asset('')}}">
 <link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="NewsNow &raquo; Feed" href="/demo/newsnow/feed/" />
-<link rel="alternate" type="application/rss+xml" title="NewsNow &raquo; Comments Feed" href="/demo/newsnow/comments/feed/" />
-<!-- This site uses the Google Analytics by MonsterInsights plugin v6.2.6 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
 
 <style type="text/css">
@@ -41,9 +40,7 @@ img.emoji {
 <script type='text/javascript' src='wp-includes/js/jquery/jquery.js'></script>
 <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js'></script>
 <link rel='https://api.w.org/' href='/demo/newsnow/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/demo/newsnow/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/demo/newsnow/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 5.0.3" />
 		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 		
 <style type="text/css" media="all">
@@ -193,6 +190,7 @@ img.emoji {
 <script type='text/javascript' src='wp-content/themes/newsnow/assets/js/html5.js'></script>
 <script type='text/javascript' src='wp-content/themes/newsnow/assets/js/jquery.custom.js'></script>
 <script type='text/javascript' src='wp-includes/js/wp-embed.min.js'></script>
+<script type='text/javascript'  src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 @yield('script')
 
 </body>

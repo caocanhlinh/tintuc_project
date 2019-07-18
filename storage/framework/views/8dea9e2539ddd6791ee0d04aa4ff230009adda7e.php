@@ -45,10 +45,23 @@
 <div id="comments" class="comments-area">
 
 		<div id="respond" class="comment-respond">
-		<h3 id="reply-title" class="comment-reply-title">Bình luận<small><a rel="nofollow" id="cancel-comment-reply-link" href="https://www.happythemes.com/demo/newsnow/laptop-on-wooden-desk-in-office-open-space/#respond" style="display:none;">Cancel reply</a></small></h3>
-		<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3&appId=1912967308968186&autoLogAppEvents=1"></script>
-		<div class="fb-comments" data-href="http://caocanhlinh.local/detail/post/<?php echo e($tintuc->id); ?>" data-width="30%" data-numposts="5"></div>
+			<h3 id="reply-title" class="comment-reply-title">Bình luận</h3>
+			<!-- ----------------- -->
+			<div class="tab">
+			  	<button class="tablinks" onclick="openCity(event, 'sys')">Hệ Thống</button>
+			  	<button class="tablinks" onclick="openCity(event, 'face')">Facebook</button>
+			</div>
+			<div id="sys" class="tabcontent form-group" >
+			  	<textarea class="form-control" id="exampleTextarea" rows="4" style="margin-top: 0px; margin-bottom: 0px; height: 60px;"></textarea>
+			  	<button class="">Lưu</button>
+			</div>
+
+			<div id="face" class="tabcontent form-group" style="display: none;">
+			  	<div id="fb-root"></div>
+				<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.3&appId=1912967308968186&autoLogAppEvents=1"></script>
+				<div class="fb-comments" data-href="http://caocanhlinh.local/detail/post/<?php echo e($tintuc->id); ?>" data-width="30%" data-numposts="5"></div>
+			</div>
+		
 			</div><!-- #respond -->
 	
 </div><!-- #comments -->
@@ -79,6 +92,21 @@
 		modal.onclick = function() { 
 		  modal.style.display = "none";
 		}
+
+		function openCity(evt, typecom) {
+		  var i, tabcontent, tablinks;
+		  tabcontent = document.getElementsByClassName("tabcontent");
+		  for (i = 0; i < tabcontent.length; i++) {
+		    tabcontent[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("tablinks");
+		  for (i = 0; i < tablinks.length; i++) {
+		    tablinks[i].className = tablinks[i].className.replace(" active", "");
+		  }
+		  document.getElementById(typecom).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
 	</script>
+
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('front.layout.index', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>

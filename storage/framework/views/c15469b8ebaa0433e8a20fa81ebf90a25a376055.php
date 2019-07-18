@@ -76,10 +76,10 @@
 
 					<?php 
 						$i=0;
-						$data=$cat->tintuc->sortByDesc('id')->take(6);
+						$data=$cat->tintuc->sortByDesc('id')->take(5);
 					?>
 					<?php $__currentLoopData = $data->all(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $news): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
-						<div class="latest-square hentry <?php if($i==5): ?> <?php echo e('last'); ?> <?php endif; ?> ">
+						<div class="latest-square hentry <?php if($i==4): ?> <?php echo e('last'); ?> <?php endif; ?> ">
 
 							<div class="entry-header clear">
 								<h2 class="entry-title"><a href="detail/post/<?php echo e($news['id']); ?>"><?php echo e($news['TieuDe']); ?></a></h2>

@@ -13,9 +13,6 @@
 use App\TheLoai;
 use Illuminate\Support\Facades\Redis;
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::get('dashboard',function(){
 	return view('admin.dashboard');
@@ -53,12 +50,17 @@ route::group(['prefix'=>'admin','middleware'=>'adminLogin'],function(){
 		route::post('edit/{id}','TinTucController@postEdit');
 		route::get('delete/{id}','TinTucController@getDelete');
 	});
-	route::get('test','TinTucController@getTest');
+	route::get('getContents','GetContentsController@getUrl')->name('getUrl');
 });
 route::get('home','PagesController@home');
+route::get('/','PagesController@home');
+route::get('#','PagesController@home');
 route::get('allpost','PagesController@allpost');
 route::get('category-{id}','PagesController@catpost');
 route::get('detail/post/{id}','PagesController@detail');
+//Route::get('/searchResult', 'PagesController@searchResult')->name('PagesController.searchResult');
+
+Route::get('/live_search/action', 'PagesController@action')->name('live_search.action');
 
 route::get('test',function(){
 	//Redis::del('visits');
